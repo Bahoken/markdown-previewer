@@ -1,0 +1,41 @@
+.App {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.App > h1 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+#editor {
+  width: 45%;
+  border: 8px solid rgb(107, 60, 103);
+  border-radius: 10px;
+  padding: 15px;
+  margin-right: 3em;
+}
+
+#editor::-webkit-scrollbar {
+  border-radius: 5px;
+  background-color: #eee;
+  width: 5px;
+}
+
+#editor::-webkit-scrollbar {
+  border-radius: 5px;
+  background-color: rgb(44, 62, 80); 
+  width: 5px;
+}
+
+#preview {
+  border-radius: 8px;
+  border: 5px solid #fff;
+  padding: 3em;
+}
